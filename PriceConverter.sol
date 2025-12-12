@@ -20,7 +20,7 @@ library PriceConverter {
         // return uint256(answer * 1e10); // 1* 10 ** 10 == 10000000000
     }
 
-    // 1000000000
+    // 1eth = 1000000000 gwei
     function getConversionRate(uint256 ethAmount)
         internal
         view
